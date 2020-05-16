@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.app-bar {
+    width: 100%;
+    background-color: rgb(41, 70, 104);
+    color: #ffffff;
+    padding: 4px 15px;
+    position: fixed;
+    left: 0;
+    
+    right: 0;
+}
+.app-header {
+    top: 0;
+    height: 40px;
+}
+.app-footer {
+    bottom: 0;
+    height: 15px;
+    font-size: 12px;
+}
+.brand-logo {
+    font-size: 30px;
+}
+.app-main {
+    margin-top: 50px;
+    margin-bottom: 20pb;
+}
+
+
+.tab-buttons {
+    display: flex;
+    flex-direction: row;
+}
+.tab-button {
+    background-color: rgb(247, 247, 247);
+    padding: 6px 12px;
+    margin-right: 1px;
+    border-bottom: solid 2px rgb(175, 175, 175);
+    cursor: pointer;
+}
+.active-tab-button {
+    color: rgb(53, 98, 138);
+    background-color: rgb(238, 250, 255) !important;
+    border-bottom: solid 2px rgb(36, 50, 97) !important;
+}
+.tab-content {
+    display: none;
+}
+.active-tab-content {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    margin: 5px;
+}
+.form-group {
+    padding: 4px;
+    margin-bottom: 5px;
+}
+.form-control {
+    width: 100%;
+}
+.form-button {
+    width: 100%;
+    background-color: #24aa6b;
+    color: #ffffff;
+    height: 35px;
+    border: solid 1px #24aa6b;
+    border-radius: 4px;
+}
+.btn {
+    display: inline-block;
+    background-color: #24aa6b;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: solid 1px #24aa6b;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list-item {
+    margin: 2px;
+    padding: 4px;
+    background-color: aliceblue;
+    border: solid 1px #d4d4d4;
+    border-radius: 4px;
+}
